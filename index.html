@@ -6,11 +6,11 @@
 
 <title>I Wash V20 - IAS</title>
 
-<!-- Google Font -->
+<!-- FONT -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
-<!-- Font Awesome -->
+<!-- ICON -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 
 <style>
@@ -29,7 +29,7 @@ body{
     overflow-x:hidden;
 }
 
-/* Animated Background */
+/* ================= BACKGROUND ================= */
 
 body::before{
     content:"";
@@ -96,7 +96,7 @@ body::before{
     padding:30px 20px;
 }
 
-/* Logo */
+/* ================= LOGO ================= */
 
 .logo{
     width:260px;
@@ -117,7 +117,7 @@ body::before{
     100%{transform:translateY(0);}
 }
 
-/* Text */
+/* ================= TEXT ================= */
 
 .hero h1{
     font-size:3.5rem;
@@ -159,8 +159,6 @@ body::before{
     gap:18px;
 }
 
-/* Main Button */
-
 .btn{
     position:relative;
 
@@ -190,8 +188,6 @@ body::before{
     0 12px 30px rgba(0,0,0,0.35);
 }
 
-/* Shine Effect */
-
 .btn::before{
     content:"";
 
@@ -219,8 +215,6 @@ body::before{
 .btn:hover{
     transform:translateY(-4px) scale(1.02);
 }
-
-/* Icon */
 
 .btn i{
     font-size:1.1rem;
@@ -303,7 +297,7 @@ body::before{
     margin-bottom:45px;
 }
 
-/* Slider */
+/* ================= SLIDER ================= */
 
 .slider{
     position:relative;
@@ -335,7 +329,7 @@ body::before{
     object-fit:cover;
 }
 
-/* Slider Buttons */
+/* ================= SLIDE BUTTON ================= */
 
 .slider-buttons{
     margin-top:30px;
@@ -369,7 +363,7 @@ body::before{
     transform:scale(1.08);
 }
 
-/* Promo Text */
+/* ================= PROMO TEXT ================= */
 
 .promo-text{
     margin-top:35px;
@@ -383,7 +377,7 @@ body::before{
     0 0 15px rgba(0,255,255,0.25);
 }
 
-/* Bottom Buttons */
+/* ================= BOTTOM BUTTON ================= */
 
 .bottom-buttons{
     margin-top:35px;
@@ -521,7 +515,7 @@ footer{
     <div class="hero-content">
 
         <!-- LOGO -->
-        <img src="image/โลโก้.PNG" alt="I Wash V20 Logo" class="logo">
+        <img src="image/โลโก้.png" alt="I Wash V20 Logo" class="logo">
 
         <!-- TITLE -->
         <h1>I Wash V20 - IAS</h1>
@@ -587,7 +581,7 @@ footer{
 
     </div>
 
-    <!-- SLIDER BUTTON -->
+    <!-- BUTTON -->
     <div class="slider-buttons">
 
         <button class="slide-btn" onclick="prevSlide()">
@@ -660,7 +654,7 @@ function prevSlide(){
     updateSlide();
 }
 
-/* Auto Slide */
+/* AUTO SLIDE */
 
 setInterval(() => {
     nextSlide();
